@@ -40,7 +40,6 @@ which should create a self-contained environment with all the below requirements
 
 <ul>
 <li>CMake</li>
-<li>Docker</li>
 </ul>
 
 It should be possible to build and run the code with alternative development environments, outside of VSCode.
