@@ -10,6 +10,7 @@ A pareto-front is typically used in genetic algorithms, in which many objectives
 
 A point is said to dominate another point;
 
+```
 auto is_dominant = [](int *a, int *b) 
 { 
     const int dimensions = 2;
@@ -22,6 +23,7 @@ auto is_dominant = [](int *a, int *b)
 
     return any;
 };
+```
 
 To Run (within VSCode);
 
