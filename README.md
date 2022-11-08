@@ -7,7 +7,7 @@ data set using a custom implementation of a KD-Tree.
 "The Pareto front is defined as the set of non-dominated solutions, where each objective is considered as equally good"</a>
 </br></br>
 A pareto-front is typically used in genetic algorithms, in which many objectives are defined, the application of a multi-dimensional tree structure such as the KD-Tree is a perfect for this problem.
-
+</br></br>
 A point is said to dominate another point;
 
 ```
@@ -24,7 +24,9 @@ auto is_dominant = [](int *a, int *b)
     return any;
 };
 ```
-
+</br></br>
+The naive computation of a parteo front, can be become computationally expensive with large datasets, as a comparison for every point, with every other point must be performed, the usage of a KD-tree attempts to mitigate this performance overhead.
+</br></br>
 To Run (within VSCode);
 
 <ul>
