@@ -1,4 +1,4 @@
-<b>Example of Pareto Front Calculation Using KD-Tree With C++ And Boost</b>
+<b>Example of Pareto Front Calculation Using KD-Tree With C++</b>
 
 This application demonstrates how to compute the Pareto-Front of a given
 data set using a custom implementation of a KD-Tree.
